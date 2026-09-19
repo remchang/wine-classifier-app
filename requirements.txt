@@ -1,0 +1,29 @@
+# 依赖固定版本 —— 这里写的是本机 pip freeze 的**实际结果**，不是"最新版"。
+# 生成方式： .\.venv\Scripts\python -m pip freeze
+#
+# 注意：文档里推荐的 scikit-learn 1.7.2 / Streamlit 1.50.0 / pandas 2.x
+# 在本机 Python 3.13 环境下没有匹配的 wheel，实际装到的是下面这些版本。
+# 差异和原因记在 docs/ceshi-jilu.md，不假装装到了推荐版本。
+
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+streamlit==1.64.0
+
+# 仅测试用
+pytest==9.1.1
+
+# 传递依赖（由上面的包带入，列出来是为了让环境完全可复现）
+cloudpickle==3.1.2
+colorama==0.4.6
+iniconfig==2.3.0
+narwhals==2.26.0
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.4

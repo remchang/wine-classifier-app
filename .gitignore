@@ -1,0 +1,16 @@
+# === 虚拟环境与大文件 ===
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# === 模型产物：默认提交，但如果你是重新训练出来的可以按需忽略 ===
+# models/*.joblib
+
+# === 编辑器/系统 ===
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*

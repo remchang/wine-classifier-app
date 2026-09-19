@@ -1,0 +1,151 @@
+{
+  "moxing_ming": "random_forest",
+  "moxing_lujing": "models/model.joblib",
+  "moxing_sha256": "970278b2c481ed59c232d7a388fa5f4e65017b9e2b88b8588293504fe32eb87f",
+  "moxing_daxiao_zijie": 630403,
+  "xunlian_shijian": "2026-09-19T20:49:13",
+  "xunlian_miao": 0.324,
+  "suiji_zhongzi": 42,
+  "shuju_ji": "sklearn.datasets.load_wine",
+  "shuju_zhiwen_sha256": "60773321b66ad35e642ec48311571719fd2d951d0e7418f06b7df804fc349a91",
+  "yangben_shu": 178,
+  "tezheng_ming": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280_od315_of_diluted_wines",
+    "proline"
+  ],
+  "leibie_ming": [
+    "class_0",
+    "class_1",
+    "class_2"
+  ],
+  "leibie_yingshe": {
+    "0": "class_0",
+    "1": "class_1",
+    "2": "class_2"
+  },
+  "zhu_zhibiao": "f1_macro",
+  "huanjing": {
+    "python": "3.13.14",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.5.3",
+    "platform": "win32"
+  },
+  "git_commit": "unknown",
+  "kua_jia_yanzheng": [
+    {
+      "moxing": "logistic_regression",
+      "zhe_shu": 5,
+      "kua_jia_yanzheng_miao": 0.087,
+      "accuracy": {
+        "jun_zhi": 0.9775,
+        "biao_zhun_cha": 0.0184
+      },
+      "precision_macro": {
+        "jun_zhi": 0.9767,
+        "biao_zhun_cha": 0.0193
+      },
+      "recall_macro": {
+        "jun_zhi": 0.9812,
+        "biao_zhun_cha": 0.0154
+      },
+      "f1_macro": {
+        "jun_zhi": 0.9777,
+        "biao_zhun_cha": 0.0182
+      }
+    },
+    {
+      "moxing": "random_forest",
+      "zhe_shu": 5,
+      "kua_jia_yanzheng_miao": 1.809,
+      "accuracy": {
+        "jun_zhi": 0.9852,
+        "biao_zhun_cha": 0.0296
+      },
+      "precision_macro": {
+        "jun_zhi": 0.985,
+        "biao_zhun_cha": 0.03
+      },
+      "recall_macro": {
+        "jun_zhi": 0.9879,
+        "biao_zhun_cha": 0.0242
+      },
+      "f1_macro": {
+        "jun_zhi": 0.9854,
+        "biao_zhun_cha": 0.0292
+      }
+    }
+  ],
+  "ceshi_ji": {
+    "yangben_shu": 45,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0,
+    "f1_weighted": 1.0,
+    "hunxiao_juzhen": [
+      [
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "mei_lei_baogao": {
+      "class_0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 15.0
+      },
+      "class_1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 18.0
+      },
+      "class_2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 45.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 45.0
+      }
+    },
+    "pingjun_kexindu": 0.8887
+  },
+  "gailv_jiaozhun_shuoming": "未做概率校准。树模型的 predict_proba 倾向于给出接近 0/1 的值，不能把概率当成'事实确定性'来解读。界面上的置信度只作为提示。"
+}
